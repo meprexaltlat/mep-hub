@@ -55,9 +55,9 @@ Tab:CreateButton({
 })
 
 Tab:CreateButton({
-   Name = "Rewind Script",
+   Name = "Anti-Bang",
    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/AKadminlol/ReversebyAK/refs/heads/main/holdCtoReverse"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/meprexaltlat/antifrak/refs/heads/main/anitfreak.lua"))()
    end,
 })
 
