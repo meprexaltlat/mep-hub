@@ -62,9 +62,9 @@ Tab:CreateButton({
 })
 
 Tab:CreateButton({
-   Name = "Face-Bang",
+   Name = "Reverse Script",
    Callback = function()
-      loadstring(game:HttpGet('https://raw.githubusercontent.com/8973951821973068216/11374577211057006363/refs/heads/main/antibang'))()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/meprexaltlat/rewind/refs/heads/main/reverse/reverse.lua'))()
    end,
 })
 
@@ -76,9 +76,16 @@ Tab:CreateButton({
 })
 
 Tab:CreateButton({
+   Name = "FaceFreak",
+   Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/meprexaltlat/face-namng/refs/heads/main/facefreak.lua'))()
+   end,
+})
+
+Tab:CreateButton({
    Name = "Baseplate Script",
    Callback = function()
-      loadstring(game:HttpGet('https://raw.githubusercontent.com/meprexalt/baseplate/refs/heads/main/baseplate/baseplate.lua'))()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/meprexaltlat/baseplate/refs/heads/main/baseplate.lua'))()
    end,
 })
 
